@@ -1,0 +1,19 @@
+
+<div class="card" style="width: 70%;">
+  <img class="card-img-top" src="{{casa.blazonCasa}}" alt="Card image cap" style="width: 50%;" >
+  <div class="card-body">
+    <h5 class="card-title">Casa: {{casa.nombreCasa}}</h5>
+    <p class="card-text">
+      Lema: {{casa?.lemaCasa}}
+      <br>
+      Asentamiento: {{casa.asentamientoCasa}}
+      <br>
+      Región: {{casa.regionCasa}}
+
+    </p>
+    <!--<a [routerLink]="['casa/',casa.id]" class="btn btn-primary">Ver</a>-->
+    <button [routerLink]="['casa/',casa.id]" type="button" class="btn btn-primary">Ver mas</button>
+
+  </div>
+</div>
+

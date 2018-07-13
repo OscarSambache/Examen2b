@@ -1,0 +1,69 @@
+
+<div class="input-group mb-3" style="width: 50%; margin-left: auto; margin-right: auto; text-align: center">
+  <input #Region_Origen type="text" class="form-control mr-sm-2" placeholder="Busque por Region u Origen" aria-label="Busque por Region u Origen" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="button"
+    (click)="buscar(Region_Origen.value)">Buscar</button>
+  </div>
+<br>
+
+</div>
+<div class="" *ngIf="arregloPersonaje &&arregloCasa">
+  <div class="" style="width: 50%; margin-left: auto; margin-right: auto;"
+       *ngIf="arregloPersonaje.length==0  &&arregloCasa.length==0 &&Region_Origen.value!=''">
+    <div class="alert alert-danger" role="alert">
+      Region u Origen no Encontrado
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="" style="width: 100%; margin-left: 150px; margin-right: 100px">
+  <div class="" *ngIf="arregloCasa.length!=0">
+    <h2>CASAS</h2>
+  </div>
+
+  <br>
+  <div class="row" >
+
+    <div *ngFor="let casa of arregloCasa">
+
+      <app-casa-componente [casa]='casa'></app-casa-componente>
+
+    </div>
+  </div>
+
+<div class="" *ngIf="arregloCasa.length>=3 &&arregloCasa.length < tamanioArreglo">
+  <button class="btn btn-outline-success my-2 my-sm-0" type="button"
+          (click)="verMasCasas(Region_Origen.value)"
+          >Ver mas</button>
+</div>
+</div>
+
+
+<br>
+<div class="" style="width: 100%; margin-left: 150px; margin-right: 100px">
+  <div class="" *ngIf="arregloPersonaje.length!=0">
+    <h2>PERSONAJES</h2>
+  </div>
+
+  <br>
+  <div class="row" >
+
+    <div *ngFor="let personaje of arregloPersonaje">
+
+      <app-personaje-component [personaje]='personaje'></app-personaje-component>
+
+    </div>
+  </div>
+
+  <div class="" *ngIf="arregloPersonaje.length>=4 &&arregloPersonaje.length < tamanioArregloPersonajes">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="button"
+            (click)="verMasPersonajes(Region_Origen.value)"
+    >Ver mas</button>
+  </div>
+</div>
+

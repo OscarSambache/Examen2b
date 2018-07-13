@@ -1,0 +1,33 @@
+
+<div class="row"  style="width: 35%; margin-left: auto; margin-right: auto;">
+  <div class="cm-sm-6">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Casa {{casa.nombreCasa}}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">lema: {{casa.lemaCasa}}</h6>
+        <h6 class="card-subtitle mb-2 text-muted">Region: {{casa.regionCasa}}</h6>
+        <h6 class="card-subtitle mb-2 text-muted">Asentamiento: {{casa.asentamientoCasa}}</h6>
+      </div>
+    </div>
+  </div>
+ <div class="cm-sm-6">
+   <div  style="width: 9rem;" >
+     <img class="card-img-top" src="{{casa.blazonCasa}}"  >
+   </div>
+ </div>
+</div>
+
+
+<br>
+<div class="" style="width: 100%; margin-left: 150px; margin-right: 100px">
+  <h2>PERSONAJES</h2>
+  <br>
+  <div class="row" >
+
+    <div *ngFor="let personaje of arregloPersonaje">
+
+      <app-personaje-component [personaje]='personaje'></app-personaje-component>
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+<div class="row" style="margin-left: auto; margin-right: auto;">
+
+
+      <div class="card" style="width: 18rem; height: 15rem">
+        <div class="card-body">
+          <h5 class="card-title"> {{personaje.nombrePersonaje}}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Titulo: {{personaje.tituloPersonaje}}</h6>
+          <h6 class="card-subtitle mb-2 text-muted">Origen: {{personaje.origenPersonaje}}</h6>
+          <h6 class="card-subtitle mb-2 text-muted">Estado: {{personaje.estadoPersonaje}}</h6>
+          <h6 class="card-subtitle mb-2 text-muted">Precio: {{personaje.precioPersonaje | currency}}</h6>
+          <button [routerLink]="['personaje/',personaje.id]" type="button" class="btn btn-primary">Ver mas</button>
+        </div>
+      </div>
+      <div  style="width: 12rem;" >
+        <img class="card-img-top" src="{{personaje.imagenPersonaje}}"  style="width: 50%;"   >
+      </div>
+
+</div>
+

@@ -2,110 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac54319-db4c-40e2-9163-4764329548c0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/.eslintignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/.sailsrc" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/.sailsrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/Gruntfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/api/controllers/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/api/controllers/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/api/helpers/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/api/helpers/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/api/models/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/api/models/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/api/policies/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/api/policies/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/assets/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/assets/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/assets/dependencies/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/assets/dependencies/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/assets/dependencies/sails.io.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/assets/dependencies/sails.io.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/assets/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/assets/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/assets/images/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/assets/images/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/assets/js/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/assets/js/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/assets/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/assets/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/assets/styles/importer.less" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/assets/styles/importer.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/assets/templates/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/assets/templates/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/config/blueprints.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/config/blueprints.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/config/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/config/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/config/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/config/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/config/datastores.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/config/datastores.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/config/env/production.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/config/env/production.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/config/globals.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/config/globals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/config/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/config/http.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/config/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/config/i18n.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/config/locales/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/config/locales/de.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/config/locales/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/config/locales/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/config/locales/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/config/locales/es.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/config/locales/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/config/locales/fr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/config/log.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/config/log.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/config/models.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/config/models.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/config/policies.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/config/policies.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/config/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/config/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Carrito.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Casa.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Personaje.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Usuario.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/CasaServicio.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/PersonajeServicio.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/UsuarioServicio.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/backend/config/security.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/config/security.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/config/session.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/config/session.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/config/sockets.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/config/sockets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/config/views.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/config/views.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/config/babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/config/babel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/config/clean.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/config/clean.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/config/coffee.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/config/coffee.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/config/concat.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/config/concat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/config/copy.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/config/copy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/config/cssmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/config/cssmin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/config/hash.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/config/hash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/config/jst.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/config/jst.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/config/less.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/config/less.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/config/sails-linker.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/config/sails-linker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/config/sync.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/config/sync.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/config/uglify.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/config/uglify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/config/watch.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/config/watch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/pipeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/pipeline.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/register/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/register/build.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/register/buildProd.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/register/buildProd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/register/compileAssets.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/register/compileAssets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/register/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/register/default.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/register/linkAssets.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/register/linkAssets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/register/linkAssetsBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/register/linkAssetsBuild.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/register/linkAssetsBuildProd.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/register/linkAssetsBuildProd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/register/polyfill.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/register/polyfill.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/register/prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/register/prod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/tasks/register/syncAssets.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/tasks/register/syncAssets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/views/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/views/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/views/404.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/views/404.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/views/500.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/views/500.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/views/layouts/layout.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/views/layouts/layout.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/views/pages/homepage.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/views/pages/homepage.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/e2e/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/e2e/protractor.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/e2e/src/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/e2e/src/app.po.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/e2e/src/app.po.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/e2e/tsconfig.e2e.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/e2e/tsconfig.e2e.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/assets/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/browserslist" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/browserslist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/environments/environment.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/karma.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/polyfills.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/tsconfig.app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/tsconfig.spec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/tslint.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -119,59 +32,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.module.ts">
+      <file leaf-file-name="carrito.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/carrito/carrito.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="220">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
               <folding>
-                <element signature="e#0#58#0" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/index.html">
+      <file leaf-file-name="personaje-component.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje-component/personaje-component.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Usuario.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Backend/backend/api/models/Usuario.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Casa.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Backend/backend/api/models/Casa.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Personaje.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Backend/backend/api/models/Personaje.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="45" column="4" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+            <state relative-caret-position="210">
+              <caret line="14" column="93" selection-start-line="14" selection-start-column="93" selection-end-line="14" selection-end-column="93" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -184,12 +68,39 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/index.html" />
         <option value="$PROJECT_DIR$/Backend/backend/api/models/Personaje.js" />
         <option value="$PROJECT_DIR$/Backend/backend/api/models/Casa.js" />
         <option value="$PROJECT_DIR$/Backend/backend/api/models/Usuario.js" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Usuario.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Personaje.ts" />
+        <option value="$PROJECT_DIR$/Backend/backend/config/security.js" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/casa-componente/casa-componente.component.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Casa.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/PersonajeServicio.service.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/casa/casa.component.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/CasaServicio.service.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Carrito.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje-component/personaje-component.component.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/casa/casa.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/ruta-padre-hijo/ruta-padre-hijo.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.route.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/cabezera/cabezera.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje/personaje.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/carrito-servicio.service.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje/personaje.component.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/cabezera/cabezera.component.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/angular.json" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/index.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/UsuarioServicio.service.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/carrito/carrito.component.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/casa-componente/casa-componente.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/home/home.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje-component/personaje-component.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/carrito/carrito.component.html" />
       </list>
     </option>
   </component>
@@ -237,34 +148,6 @@
             <path>
               <item name="Examen2b" type="b2602c69:ProjectViewProjectNode" />
               <item name="Examen2b" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Examen2b" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Examen2b" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Examen2b" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Examen2b" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Examen2b" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Examen2b" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Examen2b" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Examen2b" type="462c0819:PsiDirectoryNode" />
               <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -287,6 +170,15 @@
               <item name="examenApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Examen2b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Examen2b" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="examenApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="personaje-component" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,28 +217,34 @@
       <option name="presentableId" value="Default" />
       <updated>1531256191824</updated>
       <workItem from="1531256193954" duration="3387000" />
-      <workItem from="1531328241648" duration="3887000" />
+      <workItem from="1531328241648" duration="4144000" />
+      <workItem from="1531334338904" duration="18478000" />
+      <workItem from="1531358910847" duration="9108000" />
+      <workItem from="1531404690686" duration="8518000" />
+      <workItem from="1531417243963" duration="14016000" />
+      <workItem from="1531432923979" duration="6715000" />
+      <workItem from="1531450260838" duration="10998000" />
+      <workItem from="1531491748737" duration="2064000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7274000" />
+    <option name="totallyTimeSpent" value="77428000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <layout>
-      <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2490392" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24596465" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28915662" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.34186748" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -362,14 +260,117 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/CasaServicio.service.ts</url>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="35" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/casa/casa.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/casa-componente/casa-componente.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/CasaServicio.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/casa/casa.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/backend/api/models/Usuario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/backend/api/models/Casa.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/backend/api/models/Personaje.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" selection-start-line="45" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -387,48 +388,261 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/backend/api/models/Personaje.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/backend/api/models/Casa.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Personaje.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Casa.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/backend/config/security.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/PersonajeServicio.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/home/home.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/casa-componente/casa-componente.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Carrito.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/CasaServicio.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje-component/personaje-component.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje-component/personaje-component.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/ruta-padre-hijo/ruta-padre-hijo.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.route.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje/personaje.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Usuario.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/backend/api/models/Usuario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/casa/casa.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/carrito-servicio.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje/personaje.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/cabezera/cabezera.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/cabezera/cabezera.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/UsuarioServicio.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/casa/casa.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="76" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/carrito/carrito.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/casa-componente/casa-componente.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="66" column="18" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="-120">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/index.html">
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje-component/personaje-component.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="210">
+          <caret line="14" column="93" selection-start-line="14" selection-start-column="93" selection-end-line="14" selection-end-column="93" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Backend/backend/api/models/Usuario.js">
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        <state relative-caret-position="165">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Backend/backend/api/models/Casa.js">
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/carrito/carrito.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Backend/backend/api/models/Personaje.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="45" column="4" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+        <state relative-caret-position="220">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

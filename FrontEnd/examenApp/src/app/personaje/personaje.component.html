@@ -1,0 +1,25 @@
+
+<div class="row"  style="width: 35%; margin-left: auto; margin-right: auto;">
+  <div class="cm-sm-6">
+    <div class="card" style="width: 18rem; height: 15rem">
+      <div class="card-body">
+        <h5 class="card-title"> {{personaje.nombrePersonaje}}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Titulo: {{personaje.tituloPersonaje}}</h6>
+        <h6 class="card-subtitle mb-2 text-muted">Origen: {{personaje.origenPersonaje}}</h6>
+        <h6 class="card-subtitle mb-2 text-muted">Estado: {{personaje.estadoPersonaje}}</h6>
+        <h6 class="card-subtitle mb-2 text-muted">Precio: {{personaje.precioPersonaje | currency}}</h6>
+      </div>
+    </div>
+  </div>
+  <div class="cm-sm-6">
+    <div  style="width: 9rem;" >
+      <img class="card-img-top" src="{{personaje.imagenPersonaje}}"  >
+    </div>
+  </div>
+
+  <div class="" *ngIf="estaDisponible==true">
+    <button type="button" class="btn btn-success"
+            (click)="add()">Añadir al Carrito</button>
+  </div>
+
+</div>

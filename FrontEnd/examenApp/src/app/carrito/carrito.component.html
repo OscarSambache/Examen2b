@@ -1,0 +1,69 @@
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Datos Facturacion</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <label for="nombre">Nombre</label>
+        <input #nombre type="email" class="form-control" id="nombre" placeholder="Nombre" value="{{usuario.nombre}}">
+        <br>
+        <label for="email">Email</label>
+        <input  #email type="email" class="form-control" id="email" placeholder="Email" value="{{usuario.email}}">
+        <br>
+        <label for="telefono">Telefono</label>
+        <input #telefono type="email" class="form-control" id="telefono" placeholder="Telefono" value="{{usuario.telefono}}">
+        <br>
+        <label for="direccion">Direccion</label>
+        <input #direccion type="email" class="form-control" id="direccion" placeholder="Nombre" value="{{usuario.direccion}}">
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary"
+        (click)="actualizar(nombre.value, email.value, telefono.value, direccion.value )">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <div class="row" style="margin-left: 50px">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Datos de Facturacion</h5>
+        <h6 class="ard-subtitle mb-2 text-muted">Nombre: {{usuario.nombre}}</h6>
+        <h6 class="ard-subtitle mb-2 text-muted">Correo: {{usuario.email}}</h6>
+        <h6 class="ard-subtitle mb-2 text-muted">Telefono: {{usuario.telefono}} </h6>
+        <p class="ard-subtitle mb-2 text-muted">Direccion: {{usuario.direccion}} </p>
+      </div>
+    </div>
+    <div class="cm-sm-6" style="margin-top: 6%">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Editar
+      </button>
+    </div>
+  </div>
+
+<div class="" style="height: 100px"></div>
+
+<div class="row"  style=" width:50%; margin-left: auto; margin-right: auto;" *ngFor="let personaje of arregloPersonajes">
+  <app-personaje-component [personaje]='personaje'></app-personaje-component>
+  <div class="cm-sm-6 align-middle" style="height: 100px;">
+    <button  type="button" class="btn btn-danger "
+    (click)="eliminar(personaje)">Eliminar</button>
+  </div>
+  <div class="" style="height: 300px"></div>
+</div>
+
+
+<div class="" style="margin-left: 90% ">
+<p> Total: {{total | currency}} </p>
+</div>
+
