@@ -5,6 +5,7 @@ import {UsuarioServicioService} from "../Servicios/UsuarioServicio.service";
 import {Usuario} from "../Modelos/Usuario";
 import {$} from "protractor";
 import {PersonajeServicioService} from "../Servicios/PersonajeServicio.service";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-carrito',
@@ -23,7 +24,8 @@ export class CarritoComponent implements OnInit {
 
   constructor(private CarritoService: CarritoServicioService,
               private UsuarioService: UsuarioServicioService,
-              private PersonajeServicio: PersonajeServicioService) {
+              private PersonajeServicio: PersonajeServicioService,
+              private _router: Router) {
     this.arregloPersonajes= [];
     this.arregloPersonajes=this.CarritoService.getPersonajes();
     //console.log(this.arregloPersonajes);
@@ -80,9 +82,17 @@ export class CarritoComponent implements OnInit {
 
     })
 
-
-
   }
 
+  salir(){
+    localStorage.removeItem('id');
+    console.log('removdo ')
+
+    const url = [''];
+    this._router.navigate(url);
+    this.UsuarioService.emitirCambioNombreUsuario('')
+    this.CarritoService.emitirCambioCantidad(0);
+
+  }
 
 }

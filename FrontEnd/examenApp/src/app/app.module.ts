@@ -19,6 +19,7 @@ import { CabezeraComponent } from './cabezera/cabezera.component';
 import {UsuarioServicioService} from "./Servicios/UsuarioServicio.service";
 import {CarritoServicioService} from "./Servicios/carrito-servicio.service";
 import { CarritoComponent } from './/carrito/carrito.component';
+import { InicioComponent } from './inicio/inicio.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { CarritoComponent } from './/carrito/carrito.component';
     PersonajeComponent,
     RutaPadreHijoComponent,
     CabezeraComponent,
-    CarritoComponent
+    CarritoComponent,
+    InicioComponent
   ],
   imports: [
     BrowserModule,

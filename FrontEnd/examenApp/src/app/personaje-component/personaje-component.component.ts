@@ -1,5 +1,6 @@
 import { Component, OnInit , Input} from '@angular/core';
 import {Personaje} from "../Modelos/Personaje";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-personaje-component',
@@ -9,9 +10,14 @@ import {Personaje} from "../Modelos/Personaje";
 export class PersonajeComponentComponent implements OnInit {
 
   @Input() personaje: Personaje;
-  constructor() { }
+  constructor(private _router: Router,) { }
 
   ngOnInit() {
+  }
+
+  ir(){
+    const url = ['personaje/',this.personaje.id];
+    this._router.navigate(url);
   }
 
 }

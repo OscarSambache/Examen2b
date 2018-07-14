@@ -21,14 +21,9 @@ export class CabezeraComponent implements OnInit {
 
     this.cantidadPersonajes=this.CarritoServicio.getNumberOfPersonajes();
     this.usuario= new Usuario()
-    this.UsuarioServicio.getUsuario(3).subscribe(data => {
-     // console.log(data);
 
-      this.usuario=data
-      this.idtext=this.usuario.id.toString();
-   //   console.log(this.usuario);
-      localStorage.setItem("id", this.idtext);
-     // console.log('id',localStorage.getItem("id"))
+    this.UsuarioServicio.getUsuario(Number(localStorage.getItem('id'))).subscribe(data => {
+      this.usuario= data;
     })
 
   }
@@ -36,7 +31,8 @@ export class CabezeraComponent implements OnInit {
   ngOnInit() {
     this.cantidadPersonajes=this.CarritoServicio.cantidad
     this.escucharCambiosCantidad();
-
+    this.usuario.nombre = this.UsuarioServicio.nombreUsuario;
+    this.escucharCambiosNombreUsuario();
   }
 
 
@@ -46,6 +42,16 @@ export class CabezeraComponent implements OnInit {
       .subscribe(
         (cantidad: number) => {
           this.cantidadPersonajes = cantidad;
+        }
+      )
+  }
+
+  escucharCambiosNombreUsuario() {
+    this.UsuarioServicio
+      .cambioNombreUsuario
+      .subscribe(
+        (nombreUsuario: string) => {
+          this.usuario.nombre = nombreUsuario;
         }
       )
   }

@@ -69,8 +69,6 @@ export class HomeComponent implements OnInit {
       this.arregloPersonaje=data;
       this.arregloPersonaje.splice(this.puntoOrigenPersonaje, data.length);
       this.puntoOrigenPersonaje=this.puntoOrigenPersonaje+4;
-
     })
-
   }
 }

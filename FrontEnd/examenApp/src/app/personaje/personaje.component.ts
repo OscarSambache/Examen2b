@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {ActivatedRoute} from "@angular/router";
+import {ActivatedRoute, Router} from "@angular/router";
 import {Personaje} from "../Modelos/Personaje";
 import {PersonajeServicioService} from "../Servicios/PersonajeServicio.service";
 import {CarritoServicioService} from "../Servicios/carrito-servicio.service";
@@ -16,7 +16,8 @@ export class PersonajeComponent implements OnInit {
   personaje2: Personaje;
   constructor( private ruta:  ActivatedRoute,
                private servicoPersonaje: PersonajeServicioService,
-               private CarritoServicio: CarritoServicioService) {
+               private CarritoServicio: CarritoServicioService,
+               private _router: Router) {
 
 
     this.ruta.params.subscribe(params =>{
@@ -38,7 +39,10 @@ export class PersonajeComponent implements OnInit {
     this.CarritoServicio.guardarPersonaje(this.personaje);
     this.CarritoServicio.emitirCambioCantidad(this.CarritoServicio.getNumberOfPersonajes());
     this.personaje.estadoPersonaje='mo disponible';
-    this.servicoPersonaje.actualizarPersonaje(this.personaje)
+    this.servicoPersonaje.actualizarPersonaje(this.personaje);
+    const url = ['home'];
+    this._router.navigate(url);
+
 
   }
 }

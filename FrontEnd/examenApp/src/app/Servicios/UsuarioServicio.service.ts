@@ -1,4 +1,4 @@
-import {Injectable} from "@angular/core";
+import {EventEmitter, Injectable} from "@angular/core";
 import {HttpClient, HttpHeaders} from "@angular/common/http";
 import {Observable} from "rxjs/internal/Observable";
 import {Usuario} from "../Modelos/Usuario";
@@ -8,9 +8,16 @@ const httpOptions = { headers: new HttpHeaders({ 'Content-Type': 'application/js
 
 export class UsuarioServicioService {
   private url: string = 'http://localhost:1337/Usuario';
-
+  nombreUsuario = '';
+  cambioNombreUsuario: EventEmitter<string> = new EventEmitter();
 
   constructor(private http: HttpClient) {
+
+  }
+
+  emitirCambioNombreUsuario(nombreUsuario: string) {
+    this.nombreUsuario = nombreUsuario;
+    this.cambioNombreUsuario.emit(nombreUsuario);
   }
 
   getUsuario(id: number): Observable<Usuario> {

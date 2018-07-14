@@ -9,13 +9,14 @@ export class CarritoServicioService {
 
   private  arregloPersonajes: Personaje[]=[];
 
+
   cambioCAntidadPersonajes: EventEmitter<number> = new EventEmitter();
   cantidad: number = 0;
 
 
   constructor() {
-
   }
+
 
 
   emitirCambioCantidad(cantidad: number) {

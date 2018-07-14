@@ -10,9 +10,12 @@ import {CarritoServicioService} from "./Servicios/carrito-servicio.service";
 export class AppComponent {
 
   title = 'app';
+  localStorage:boolean
 
   constructor(private  PersonajeServicio: PersonajeServicioService) {
     this.PersonajeServicio.obtenerArregloPersonaje();
+
+
 
   }
 
