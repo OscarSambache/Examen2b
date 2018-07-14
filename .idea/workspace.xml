@@ -2,23 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac54319-db4c-40e2-9163-4764329548c0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Carrito.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Casa.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Personaje.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Usuario.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/CasaServicio.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/PersonajeServicio.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/UsuarioServicio.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.route.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/backend/config/security.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/config/security.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/backend/api/models/Personaje.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/backend/api/models/Personaje.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Personaje.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Personaje.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/PersonajeServicio.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/PersonajeServicio.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/carrito-servicio.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/carrito-servicio.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/carrito/carrito.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/carrito/carrito.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/carrito/carrito.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/carrito/carrito.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje/personaje.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje/personaje.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje/personaje.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje/personaje.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,36 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="carrito.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/carrito/carrito.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="personaje-component.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje-component/personaje-component.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="93" selection-start-line="14" selection-start-column="93" selection-end-line="14" selection-end-column="93" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,15 +32,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Backend/backend/api/models/Personaje.js" />
         <option value="$PROJECT_DIR$/Backend/backend/api/models/Casa.js" />
         <option value="$PROJECT_DIR$/Backend/backend/api/models/Usuario.js" />
         <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Usuario.ts" />
-        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Personaje.ts" />
         <option value="$PROJECT_DIR$/Backend/backend/config/security.js" />
         <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/casa-componente/casa-componente.component.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Casa.ts" />
-        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/PersonajeServicio.service.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/casa/casa.component.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/CasaServicio.service.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Carrito.ts" />
@@ -85,21 +46,30 @@
         <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/ruta-padre-hijo/ruta-padre-hijo.component.html" />
         <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.route.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/cabezera/cabezera.component.html" />
-        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje/personaje.component.html" />
-        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/carrito-servicio.service.ts" />
-        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje/personaje.component.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/cabezera/cabezera.component.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/FrontEnd/examenApp/angular.json" />
         <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/index.html" />
-        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/UsuarioServicio.service.ts" />
-        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/carrito/carrito.component.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/casa-componente/casa-componente.component.html" />
         <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/home/home.component.ts" />
-        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje-component/personaje-component.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/UsuarioServicio.service.ts" />
+        <option value="$PROJECT_DIR$/Backend/backend/api/models/Personaje.js" />
+        <option value="$PROJECT_DIR$/Backend/backend2/.tmp/localDiskDb/usuario.db" />
+        <option value="$PROJECT_DIR$/Backend/backend2/.tmp/localDiskDb/personaje.db" />
+        <option value="$PROJECT_DIR$/Backend/backend2/.tmp/localDiskDb/casa.db" />
+        <option value="$PROJECT_DIR$/Backend/backend2/config/security.js" />
+        <option value="$PROJECT_DIR$/Backend/backend2/api/models/Personaje.js" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Personaje.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/ServicioPersonajesLocal.service.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/carrito-servicio.service.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje/personaje.component.html" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje/personaje.component.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/carrito/carrito.component.ts" />
+        <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/PersonajeServicio.service.ts" />
         <option value="$PROJECT_DIR$/FrontEnd/examenApp/src/app/carrito/carrito.component.html" />
       </list>
     </option>
@@ -112,11 +82,13 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/Backend/backend/node_modules" />
+    <handled-path value="$PROJECT_DIR$/Backend/backend2/node_modules" />
     <handled-path value="$PROJECT_DIR$/FrontEnd/examenApp/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/Backend/backend/package.json" />
+      <path value="$PROJECT_DIR$/Backend/backend2/package.json" />
       <path value="$PROJECT_DIR$/FrontEnd/examenApp/package.json" />
     </packageJsonPaths>
   </component>
@@ -132,7 +104,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,6 +119,12 @@
             <path>
               <item name="Examen2b" type="b2602c69:ProjectViewProjectNode" />
               <item name="Examen2b" type="462c0819:PsiDirectoryNode" />
+              <item name="Backend" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Examen2b" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Examen2b" type="462c0819:PsiDirectoryNode" />
               <item name="FrontEnd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -178,12 +155,13 @@
               <item name="examenApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="personaje-component" type="462c0819:PsiDirectoryNode" />
+              <item name="carrito" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,17 +203,21 @@
       <workItem from="1531432923979" duration="6715000" />
       <workItem from="1531450260838" duration="10998000" />
       <workItem from="1531491748737" duration="2064000" />
+      <workItem from="1531511455100" duration="7580000" />
+      <workItem from="1531519420853" duration="1724000" />
+      <workItem from="1531521219969" duration="4764000" />
+      <workItem from="1531531830493" duration="2855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77428000" />
+    <option name="totallyTimeSpent" value="94351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24596465" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33512682" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
@@ -266,100 +248,16 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/CasaServicio.service.ts</url>
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje/personaje.component.ts</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/home/home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="35" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/casa/casa.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/casa-componente/casa-componente.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/CasaServicio.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/casa/casa.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Backend/backend/api/models/Usuario.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Backend/backend/api/models/Casa.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Backend/backend/api/models/Personaje.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -388,45 +286,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Backend/backend/api/models/Personaje.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="40" column="12" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Backend/backend/api/models/Casa.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Personaje.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Casa.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Backend/backend/config/security.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/PersonajeServicio.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -437,30 +300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Carrito.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/CasaServicio.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje-component/personaje-component.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -477,52 +316,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje/personaje.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Usuario.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Backend/backend/api/models/Usuario.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/casa/casa.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/carrito-servicio.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje/personaje.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/cabezera/cabezera.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -547,20 +344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/cabezera/cabezera.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/UsuarioServicio.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/casa/casa.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -568,40 +351,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/carrito/carrito.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/casa-componente/casa-componente.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/home/home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="66" column="18" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -609,9 +362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-120">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -619,29 +369,253 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="93" selection-start-line="14" selection-start-column="93" selection-end-line="14" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/cabezera/cabezera.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/cabezera/cabezera.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/cabezera/cabezera.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/CasaServicio.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/UsuarioServicio.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Carrito.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Usuario.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/backend/.tmp/localDiskDb/archive.db">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/backend/api/models/Personaje.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/backend/api/models/Casa.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/backend/api/models/Usuario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/backend2/api/models/Casa.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/backend2/.tmp/localDiskDb/usuario.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/backend/.tmp/localDiskDb/usuario.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/backend2/.tmp/localDiskDb/personaje.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/backend/.tmp/localDiskDb/personaje.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/backend/.tmp/localDiskDb/casa.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/backend2/.tmp/localDiskDb/casa.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/backend/config/security.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/backend2/config/security.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backend/backend2/api/models/Personaje.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje-component/personaje-component.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/ServicioPersonajesLocal.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/carrito-servicio.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje/personaje.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/carrito/carrito.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Modelos/Personaje.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/personaje/personaje.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/Servicios/PersonajeServicio.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FrontEnd/examenApp/src/app/carrito/carrito.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="135">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
           <folding>
+            <element signature="n#div#0;n#!!top" />
+            <element signature="e#449#456#1" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#!!top" />
+            <element signature="n#div#4;n#!!top" />
           </folding>
         </state>
       </provider>

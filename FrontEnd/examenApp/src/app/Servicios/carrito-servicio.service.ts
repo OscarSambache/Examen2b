@@ -8,11 +8,15 @@ import {Observable} from "rxjs/internal/Observable";
 export class CarritoServicioService {
 
   private  arregloPersonajes: Personaje[]=[];
+
   cambioCAntidadPersonajes: EventEmitter<number> = new EventEmitter();
   cantidad: number = 0;
 
 
-  constructor() { }
+  constructor() {
+
+  }
+
 
   emitirCambioCantidad(cantidad: number) {
     this.cantidad = cantidad;

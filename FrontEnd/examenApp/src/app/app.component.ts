@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {PersonajeServicioService} from "./Servicios/PersonajeServicio.service";
+import {CarritoServicioService} from "./Servicios/carrito-servicio.service";
 
 @Component({
   selector: 'app-root',
@@ -6,10 +8,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
   title = 'app';
-  constructor(){
-    console.log('presonajes disponibles')
+
+  constructor(private  PersonajeServicio: PersonajeServicioService) {
+    this.PersonajeServicio.obtenerArregloPersonaje();
+
   }
+
 }
-
-

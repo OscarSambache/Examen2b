@@ -17,9 +17,14 @@
     </div>
   </div>
 
-  <div class="" *ngIf="estaDisponible==true">
+  <div class="" *ngIf="personaje2.estadoPersonaje=='disponible'">
     <button type="button" class="btn btn-success"
             (click)="add()">Añadir al Carrito</button>
+  </div>
+  <div class="" *ngIf="personaje2.estadoPersonaje !='disponible'">
+    <div class="alert alert-danger" role="alert">
+      Personaje no disponible
+    </div>
   </div>
 
 </div>

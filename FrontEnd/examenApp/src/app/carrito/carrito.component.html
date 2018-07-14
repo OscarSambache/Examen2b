@@ -31,9 +31,25 @@
   </div>
 </div>
 
-
-
-
+<!--datos Cuenta-->
+<div class="row" style="margin-left: 50px">
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Datos de Cuenta</h5>
+      <h6 class="ard-subtitle mb-2 text-muted">Nombre: {{usuario.nombre}}</h6>
+      <h6 class="ard-subtitle mb-2 text-muted">Correo: {{usuario.email}}</h6>
+      <h6 class="ard-subtitle mb-2 text-muted">Telefono: {{usuario.telefono}} </h6>
+      <p class="ard-subtitle mb-2 text-muted">Direccion: {{usuario.direccion}} </p>
+    </div>
+  </div>
+  <div class="cm-sm-6" style="margin-top: 6%">
+    <button type="button" class="btn btn-primary">
+      Completar Orden
+    </button>
+  </div>
+</div>
+<div class="" style="height: 50px"></div>
+<!--Datos Facturacion-->
   <div class="row" style="margin-left: 50px">
     <div class="card" style="width: 18rem;">
       <div class="card-body">
@@ -46,13 +62,14 @@
     </div>
     <div class="cm-sm-6" style="margin-top: 6%">
       <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-        Editar
+        Editar Datos
       </button>
     </div>
   </div>
+  <div class="" style="height: 100px"></div>
 
-<div class="" style="height: 100px"></div>
 
+<!--items del carrito-->
 <div class="row"  style=" width:50%; margin-left: auto; margin-right: auto;" *ngFor="let personaje of arregloPersonajes">
   <app-personaje-component [personaje]='personaje'></app-personaje-component>
   <div class="cm-sm-6 align-middle" style="height: 100px;">
@@ -62,7 +79,7 @@
   <div class="" style="height: 300px"></div>
 </div>
 
-
+<!--Total-->
 <div class="" style="margin-left: 90% ">
 <p> Total: {{total | currency}} </p>
 </div>

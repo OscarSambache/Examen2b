@@ -1,5 +1,5 @@
 /**
- * Personaje.js
+ * Casa.js
  *
  * @description :: A model definition.  Represents a database table/collection/etc.
  * @docs        :: https://sailsjs.com/docs/concepts/models-and-orm/models
@@ -9,37 +9,34 @@ module.exports = {
 
   attributes: {
 
-    nombrePersonaje:{
+    nombreCasa:{
+      type: 'string',
+      required: true
+    },
+    blazonCasa:{
       type: 'string',
       required: true
     },
 
-    imagenPersonaje:{
+    lemaCasa:{
       type: 'string',
       required: true
     },
 
-    tituloPersonaje:{
+    regionCasa:{
       type: 'string',
       required: true
     },
 
-    estadoPersonaje:{
+    asentamientoCasa:{
       type: 'string',
       required: true
     },
 
-    origenPersonaje:{
-      type: 'string',
-      required: true
-    },
 
-    precioPersonaje:{
-      type: 'number',
-      required: true
-    },
-    casaIdFK:{
-      model: 'Casa'
+    Personajes: {
+      collection: 'Personaje',
+      via: 'casaIdFK'
     },
 
   },

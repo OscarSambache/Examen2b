@@ -4,6 +4,7 @@ import {Personaje} from "../Modelos/Personaje";
 import {UsuarioServicioService} from "../Servicios/UsuarioServicio.service";
 import {Usuario} from "../Modelos/Usuario";
 import {$} from "protractor";
+import {PersonajeServicioService} from "../Servicios/PersonajeServicio.service";
 
 @Component({
   selector: 'app-carrito',
@@ -21,7 +22,8 @@ export class CarritoComponent implements OnInit {
 
 
   constructor(private CarritoService: CarritoServicioService,
-              private UsuarioService: UsuarioServicioService) {
+              private UsuarioService: UsuarioServicioService,
+              private PersonajeServicio: PersonajeServicioService) {
     this.arregloPersonajes= [];
     this.arregloPersonajes=this.CarritoService.getPersonajes();
     //console.log(this.arregloPersonajes);
@@ -61,7 +63,8 @@ export class CarritoComponent implements OnInit {
     })
 
     this.total=this.total-personaje.precioPersonaje
-
+    personaje.estadoPersonaje='disponible';
+    this.PersonajeServicio.actualizarPersonaje(personaje)
   }
 
   actualizar(nombre: string, email: string, telefono: string, direccion: string){
@@ -73,10 +76,10 @@ export class CarritoComponent implements OnInit {
     this.usuarioActualizado.id=this.usuario.id;
 
     this.UsuarioService.updateUsuario(this.usuarioActualizado).subscribe(data => {
-      console.log(data);
       this.usuario=data
 
     })
+
 
 
   }
